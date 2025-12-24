@@ -29,7 +29,7 @@
     },
     {
         "title": "Moo Nonton",
-        "desc": "A React.js movie streaming project built with vanilla CSS to strengthen styling fundamentals, featuring genre listings and a Redux wishlist. Completed for the Korean ASEAN Digital Academy Web Development course.",
+        "desc": "A React.js movie streaming project built with vanilla CSS to strengthen styling fundamentals, featuring Redux wishlist. Completed for the Korean ASEAN Digital Academy Web Development course.",
         "img": "assets/images/moonontonLogo.png",
         "link": "https://moononton.pages.dev/",
         "github": "https://github.com/zrahadiz/moo_nonton"
