@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Portfolio Website",
+        "desc": "A clean and modern portfolio website showcasing my projects, skills, and experience in software development. Built to highlight my work, achievements, and technical capabilities in a clear and accessible way.",
+        "img": "assets/images/portoLogo.png",
+        "link": "https://rahadifauzan.pages.dev/",
+        "github": "https://github.com/zrahadiz/new_portofolio"
+    },
+    {
+        "title": "DevAlign",
+        "desc": "DevAlign is an AI-powered HRIS that optimizes IT project allocation in Indonesia by reducing high employee turnover caused by skill-role mismatches. It uses AI and data analytics to match the right people to the right projects.",
+        "img": "assets/images/devAlignLogo.png",
+        "link": "https://www.devalign.site/",
+        "github": "https://github.com/zrahadiz/DevAlign/"
+    },
+    {
+        "title": "Savory Notes",
+        "desc": "SavoryNotes is a modern, full-stack food recipes blog that allows users to discover and share their favorite recipes with an intelligent AI cooking assistant powered by Google's Gemini AI.",
+        "img": "assets/images/savoryNotesLogo.png",
+        "link": "https://savorynotes.pages.dev/",
+        "github": "https://github.com/zrahadiz/SavoryNotes/"
+    },
+    {
+        "title": "DnD Adventures Online",
+        "desc": "A multiplayer D&D-style game with character creation, AI-driven campaigns, and real-time synced gameplay, built using Next.js, Socket.IO, PostgreSQL, Drizzle ORM, and Docker.",
+        "img": "assets/images/dndLogo.png",
+        "link": null,
+        "github": "https://github.com/zrahadiz/DnDGames"
+    },
+    {
+        "title": "Moo Nonton",
+        "desc": "A React.js movie streaming project built with vanilla CSS to strengthen styling fundamentals, featuring genre listings and a Redux wishlist. Completed for the Korean ASEAN Digital Academy Web Development course.",
+        "img": "assets/images/moonontonLogo.png",
+        "link": "https://moononton.pages.dev/",
+        "github": "https://github.com/zrahadiz/moo_nonton"
+    },
+    {
+        "title": "Restaurant Menu Display",
+        "desc": "A restaurant digital signage system powered by Raspberry Pi and Firebase, enabling managers to schedule and update menu displays remotely. The device syncs every 5 minutes to ensure content stays current, even after offline downtime.",
+        "img": "assets/images/digitalSignageLogo.png",
+        "link": "https://digisignage-7f419.firebaseapp.com/",
+        "github": "https://github.com/zrahadiz/digital-signage"
+    }
+]

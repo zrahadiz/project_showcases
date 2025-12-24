@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link rel="icon" href="assets/images/profile.ico" type="image/x-icon" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/index.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3 sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-4" href="#">
+          <span class="text-primary">My</span>Portfolio
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto gap-3">
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#hero">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-semibold" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="text-white d-flex align-items-center py-5 hero-gradient"
+    >
+      <div class="container text-center">
+        <img
+          src="assets/images/profile.jpg"
+          alt="Profile"
+          class="rounded-circle border border-light mb-4 hero-img"
+          style="width: 140px; height: 140px; object-fit: cover"
+        />
+        <h1 class="fw-bold display-5">
+          Hi, I'm <span class="text-info">Rahadi</span>
+        </h1>
+        <p class="fs-4 mt-3">
+          I am a <span id="typing-text" class="text-info fw-semibold"></span>
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-5">
+      <div class="container">
+        <h2 class="section-title text-center">My Projects</h2>
+        <div
+          id="projects-container"
+          class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center"
+        ></div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4 fw-bold">About Me</h2>
+
+        <div class="row align-items-center">
+          <div class="col-md-4 text-center mb-4 mb-md-0">
+            <img
+              src="assets/images/profile2.jpg"
+              alt="Profile Photo"
+              class="rounded-circle shadow-sm"
+              style="width: 200px; height: 200px; object-fit: cover"
+            />
+          </div>
+
+          <div class="col-md-8">
+            <p class="lead">
+              Hi, I’m <strong>Rahadi</strong> — a passionate
+              <strong>Fullstack Engineer</strong> focused on building clean,
+              efficient, and user-friendly digital experiences.
+            </p>
+            <p>
+              I have experience developing full-stack applications using
+              technologies like
+              <strong>JavaScript, Vue, React, Node.js, Express, MySQL,</strong>
+              and more. I enjoy learning new tools, exploring emerging
+              technologies, and solving real-world problems through code.
+            </p>
+            <p>
+              Outside of coding, I’m continuously improving my design sense,
+              backend architecture skills, and exploring AI-powered development.
+            </p>
+          </div>
+        </div>
+
+        <div class="row text-center mt-5 g-4">
+          <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm bg-white h-100">
+              <h5 class="fw-bold mb-2">Email</h5>
+              <a href="mailto:rahadifauzan7@gmail.com"
+                >rahadifauzan7@gmail.com</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm bg-white h-100">
+              <h5 class="fw-bold mb-2">LinkedIn</h5>
+              <a
+                href="https://www.linkedin.com/in/rahadi-fauzan"
+                target="_blank"
+                >linkedin.com/in/rahadi-fauzan</a
+              >
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="p-3 border rounded shadow-sm bg-white h-100">
+              <h5 class="fw-bold mb-2">GitHub</h5>
+              <a href="https://github.com/zrahadiz" target="_blank"
+                >github.com/zrahadiz</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-light py-4">
+      <div class="container text-center">
+        <h4 class="fw-bold mb-1">Rahadi Fauzan</h4>
+        <p class="mb-3" style="opacity: 0.8">
+          Fullstack Engineer • Tech Enthusiast
+        </p>
+        <hr class="border-light" style="opacity: 0.15" />
+        <p class="mb-0" style="opacity: 0.7">
+          &copy; 2025 Rahadi • All Rights Reserved
+        </p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/javascript/index.js"></script>
+  </body>
+</html>
